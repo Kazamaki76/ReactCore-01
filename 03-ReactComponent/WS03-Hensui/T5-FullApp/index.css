@@ -7,10 +7,53 @@
 }
 
 html {
-    font-size: 62.5%; // root 16px * 0.625 == 10px
+    font-size: 62.5%; /*// root 16px * 0.625 == 10px */
 }
 
 body {
     height: 100vh;
     font-family: 'urbanist', sans-serif;
+}
+
+
+.headcomp {
+    font-size: 42px;
+    width: 430px;
+    height: 150px;
+    line-height: 50.4px;
+    letter-spacing: -1%;
+    font-weight: 700;
+}
+
+
+.infoText {
+    font-size: 18px;
+    width: 382px;
+    height: 180px;
+    font-weight: 400;
+    line-height: 28px;
+
+
+}
+
+.ctus{
+    width: 302px;
+    height: 44px;
+    radius: 5px;
+    border: 1px;
+
+}
+
+.lay {
+    width: 700px;
+    height: 874px;
+}
+
+main{
+    display: flex;
+}
+
+.right {
+    margin-left: 7vw;
+    margin-top: 7vh;
 }

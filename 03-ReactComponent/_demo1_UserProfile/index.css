@@ -25,3 +25,9 @@ body {
     height: 100%;
     object-fit: cover;
 }
+
+.profile_card{
+    border: 1px solid black;
+    padding: 10px 30px;
+    border-radius: 5px;
+}

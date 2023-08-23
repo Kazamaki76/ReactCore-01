@@ -7,10 +7,35 @@
 }
 
 html {
-    font-size: 62.5%; // root 16px * 0.625 == 10px
+    font-size: 62.5%;  /*// root 16px * 0.625 == 10px */
 }
 
 body {
     height: 100vh;
     font-family: 'urbanist', sans-serif;
 }
+
+
+
+
+
+.bt {
+    width: 135px;
+    height: 44px;
+    left:  308px;
+    border-radius: 5px;
+    padding: 0px, 48px, 0px, 48px;
+    gap: 8px;
+    background-color: #29005F;
+
+}
+
+.ctus{
+    padding: 10px;
+    width: 443px;
+    border-radius: 5px;
+    border: 1px;
+
+}
+
+

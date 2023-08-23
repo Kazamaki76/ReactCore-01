@@ -32,6 +32,39 @@ const quotes = [
         source: 'Desiderius Erasmus',
     },
 ];
+function MyComponent(p) {
+    return <h4> {p.text}</h4>
+
+}
+//React : React.createElement("h1", {className: "red", role: "button"}, "Header")
+//JSX : <h1 className="red" role="button"> Header < /h1>
+
+// const proprs = {}
+//React: React.createElement("h1", props, "Header") 
+
+// ## ส่ง Attribute ให้ FunctionComponent 
+//JSX : <MyComponent {text="React" className="red"}
+//const props = { text: "React", className="red"}
+
+/* 0 attr : <MyComponent/> ===MyComponent()
+1 attr : <MyComponent text="react" /> == MyComponent(props)
+2 attr : <
+
+
+
+*/
+function App() {
+    return (
+        <div>
+            <h1 className>Header</h1>
+            <MyComponent text="React" />
+            <MyComponent text="CSS" />
+            <MyComponent text="HTML" />
+            <MyComponent text= "Javascript" />
+        
+        </div>
+    )
+}
 
 // Render
 const domRoot = document.getElementById('root');
